@@ -30,3 +30,26 @@
 *.exe
 *.out
 *.app
+
+
+# Start with a C++ template if available
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Arduino-specific additions
+*.ino.*
+*.elf
+*.hex
+*.bin
+
+# Ignore compiled libraries
+libraries/*/src/*.o
+libraries/*/src/*.d
+libraries/*/src/*.a
+
+# OS-specific
+.DS_Store
+Thumbs.db
